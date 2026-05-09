@@ -1,9 +1,13 @@
 [gd_scene format=3 uid="uid://c1srisqd141ee"]
 
 [ext_resource type="PackedScene" uid="uid://5mxd5avoxe1" path="res://scenes/background.tscn" id="1_xj5yv"]
+[ext_resource type="PackedScene" uid="uid://du3pyksgfxexo" path="res://scenes/player.tscn" id="2_pjpa4"]
 
 [node name="GameRoot" type="Node" unique_id=1303203010]
 
 [node name="World" type="Node2D" parent="." unique_id=526752795]
 
 [node name="Background" parent="World" unique_id=654890718 instance=ExtResource("1_xj5yv")]
+
+[node name="Player" parent="World" unique_id=1749811385 instance=ExtResource("2_pjpa4")]
+position = Vector2(162, 107)
