@@ -1,0 +1,25 @@
+# Godot 4
+.godot/
+.import/
+export.cfg
+export_presets.cfg
+
+# Godot 3
+.import/
+*.translation
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Builds/exports
+builds/
+exports/
+*.exe
+*.app
+*.apk
+*.aab
+*.ipa
+*.pck
