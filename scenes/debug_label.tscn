@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bgjyngio06x0r"]
+
+[ext_resource type="Script" uid="uid://b0dfe8f4c7j60" path="res://scripts/debug_label.gd" id="1_ipbqv"]
+
+[node name="DebugLabel" type="Label" unique_id=1794410944]
+script = ExtResource("1_ipbqv")

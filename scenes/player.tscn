@@ -2,11 +2,16 @@
 
 [ext_resource type="Texture2D" uid="uid://y47dotawjcyn" path="res://assets/tmp_player.png" id="1_3vyb7"]
 [ext_resource type="Script" uid="uid://c1cr1k44ckcm4" path="res://scripts/player.gd" id="1_g2els"]
+[ext_resource type="PackedScene" uid="uid://df0k5bo2axkvm" path="res://scenes/bullet.tscn" id="2_dqkch"]
+[ext_resource type="PackedScene" uid="uid://1ycgxoo5nmmg" path="res://scenes/wand.tscn" id="3_qhqgy"]
 
 [node name="Player" type="CharacterBody2D" unique_id=1327166324]
 script = ExtResource("1_g2els")
+bullet_scene = ExtResource("2_dqkch")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=658639632]
 texture = ExtResource("1_3vyb7")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=192304558]
+
+[node name="Wand" parent="." unique_id=705024823 instance=ExtResource("3_qhqgy")]

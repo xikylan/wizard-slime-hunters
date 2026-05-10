@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://c1srisqd141ee"]
 
+[ext_resource type="PackedScene" uid="uid://bgjyngio06x0r" path="res://scenes/debug_label.tscn" id="1_lkrbl"]
 [ext_resource type="PackedScene" uid="uid://5mxd5avoxe1" path="res://scenes/background.tscn" id="1_xj5yv"]
 [ext_resource type="PackedScene" uid="uid://du3pyksgfxexo" path="res://scenes/player.tscn" id="2_pjpa4"]
 
@@ -11,3 +12,9 @@
 
 [node name="Player" parent="World" unique_id=1749811385 instance=ExtResource("2_pjpa4")]
 position = Vector2(162, 107)
+
+[node name="DebugLabel" parent="." unique_id=1794410944 instance=ExtResource("1_lkrbl")]
+offset_left = 4.0
+offset_top = 151.0
+offset_right = 70.0
+offset_bottom = 174.0
